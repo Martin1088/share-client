@@ -96,7 +96,7 @@
     <datatables.version>1.10.16</datatables.version>
     <twbs-pagination.version>1.4.1</twbs-pagination.version>
     <jqplot.version>1.0.9.d96a669-1</jqplot.version>
-    <hapi.version>4.2.0</hapi.version>
+    <hapi.version>5.0.0</hapi.version>
     <directory-sync.version>0.1.0</directory-sync.version>
     <togglz-core.version>2.6.1.Final</togglz-core.version>
     <togglz-jsf.version>2.6.1.Final</togglz-jsf.version>
@@ -471,9 +471,7 @@
               </goals>
               <configuration>
                 <target>
-                  <copy file="docs/faces-config-${project.context}.xml"
-                    toFile="${project.basedir}/src/main/webapp/WEB-INF/faces-config.xml"
-                    overwrite="true"/>
+                  <copy file="docs/faces-config-${project.context}.xml" toFile="${project.basedir}/src/main/webapp/WEB-INF/faces-config.xml" overwrite="true"/>
                 </target>
               </configuration>
             </execution>
